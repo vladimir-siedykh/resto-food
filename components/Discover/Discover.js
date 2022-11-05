@@ -53,7 +53,7 @@ const Discover = () => {
               src='/images/interier.png'
               alt='interier image'
               width={423}
-              height={636}
+              height={536}
               layout='responsive'
             />
           </motion.div>
