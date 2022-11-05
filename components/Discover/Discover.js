@@ -49,6 +49,7 @@ const Discover = () => {
         <div ref={ref} className={styles.wrapper}>
           <motion.div animate={animation} className={styles.image}>
             <Image
+              style={{ borderRadius: '2.4rem' }}
               src='/images/interier.png'
               alt='interier image'
               width={423}
