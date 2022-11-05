@@ -11,6 +11,7 @@
 .content {
   max-width: 45.5rem;
   width: 100%;
+  align-self: center;
 }
 
 .content p {
