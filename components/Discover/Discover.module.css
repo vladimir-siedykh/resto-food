@@ -1,0 +1,28 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 42.3rem 1fr;
+  gap: 7.6rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.text {
+  margin-top: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.image {
+  max-width: 42.3rem;
+  width: 100%;
+  justify-self: center;
+}
+
+@media(max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
