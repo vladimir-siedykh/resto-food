@@ -1,4 +1,5 @@
 import styles from './Footer.module.css'
+import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -10,7 +11,9 @@ const Footer = () => {
               Resto<span>food</span>
             </div>
             <div className={styles.social}>
-              f i w
+              <FaFacebookF />
+              <FaInstagram />
+              <FaWhatsapp />
             </div>
           </div>
           <div className={styles.line}></div>

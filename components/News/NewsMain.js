@@ -1,13 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './NewsMain.module.css'
+import { BiRightArrowAlt } from 'react-icons/bi';
 
 const NewsMain = () => {
   return (
     <div className={styles.bg}>
       <section className='section'>
         <div className='container center'>
-          <h2 className='heading-1-black text-center'>Welcome to Our Newsletter</h2>
+          <h2 className='heading-1-black text-center'>
+            Welcome to Our Newsletter
+          </h2>
           <div className={styles.wrapper}>
             <div className={styles.item}>
               <div className={styles.img}>
@@ -28,7 +31,9 @@ const NewsMain = () => {
                   amet sint
                 </p>
                 <Link href='/'>
-                  <a className={styles.link}>Read Full Article</a>
+                  <a className={styles.link}>
+                    Read Full Article <BiRightArrowAlt />
+                  </a>
                 </Link>
               </div>
             </div>
@@ -51,7 +56,9 @@ const NewsMain = () => {
                   amet sint
                 </p>
                 <Link href='/'>
-                  <a className={styles.link}>Read Full Article</a>
+                  <a className={styles.link}>
+                    Read Full Article <BiRightArrowAlt />
+                  </a>
                 </Link>
               </div>
             </div>
@@ -74,7 +81,9 @@ const NewsMain = () => {
                   amet sint
                 </p>
                 <Link href='/'>
-                  <a className={styles.link}>Read Full Article</a>
+                  <a className={styles.link}>
+                    Read Full Article <BiRightArrowAlt />
+                  </a>
                 </Link>
               </div>
             </div>
