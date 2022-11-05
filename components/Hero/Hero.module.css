@@ -1,6 +1,6 @@
 .bg {
   background-color: var(--clr-black);
-  background-image: url('../../public/images/hero.png');
+  background-image: url('/images/hero.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
