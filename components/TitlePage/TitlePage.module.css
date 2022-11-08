@@ -1,0 +1,13 @@
+.bg {
+  background-color: var(--clr-black);
+  padding-top: 19.6rem;
+  padding-bottom: 15rem;
+  text-align: center;
+}
+
+.text {
+  margin-top: 1.6rem;
+  max-width: 35rem;
+  margin-inline: auto;
+  color: var(--clr-white);
+}

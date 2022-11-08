@@ -1,3 +1,8 @@
+.footer section {
+  padding-bottom: 0;
+  font-size: 2rem;
+}
+
 .socials {
   display: flex;
   justify-content: space-between;
@@ -5,7 +10,7 @@
 }
 
 .logo {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   color: var(--clr-black);
 }
 
@@ -25,4 +30,34 @@
   border: 1px dashed #D9D9D9;
   width: 100%;
   margin-top: 4.8rem;
+}
+
+.content {
+  margin-top: 4.8rem;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.content > * {
+  flex: 1;
+}
+
+.contacts, .about, .links, .nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bg {
+  background-color: var(--clr-grey-light);
+  text-align: center;
+  padding-block: 1.6rem;
+}
+
+@media(max-width: 1024px) {
+  .content {
+    flex-direction: column;
+    max-width: 30rem;
+    width: 100%;
+  }
 }
