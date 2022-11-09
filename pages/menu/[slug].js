@@ -1,5 +1,4 @@
 import menu from '../../constants/menu';
-import Layout from '../../components/Layout/Layout';
 import TitlePage from '../../components/TitlePage/TitlePage';
 import MenuDetails from '../../components/Menu/MenuDetails';
 import Head from 'next/head';

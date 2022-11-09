@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from './MenuDetails.module.css'
 
 const MenuDetails = ({ menuDetail }) => {
-  const { title, price, descr, image } = menuDetail;
+  const { title, descr, image } = menuDetail;
   return (
     <section className='section'>
       <div className='container center'>
