@@ -1,5 +1,9 @@
 .bg {
   background-color: var(--clr-black);
+  background-image: url('/images/bgimage.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 19.6rem;
   padding-bottom: 15rem;
   text-align: center;

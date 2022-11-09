@@ -1,0 +1,40 @@
+.wrapper {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.item {
+  max-width: max-content;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 2rem;
+  color: var(--clr-black);
+  font-weight: 700;
+}
+
+.text {
+  margin-top: 0.8rem;
+}
+
+@media(max-width: 1200px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+
+@media(max-width: 756px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

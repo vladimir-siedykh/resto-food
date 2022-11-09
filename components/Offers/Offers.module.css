@@ -1,6 +1,10 @@
 .wrapper {
   display: grid;
   background-color: var(--clr-black-light);
+  background-image: url('/images/bgimage.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 8.4rem 5.8rem;
   border-radius: 2.4rem;
   grid-template-columns: 1fr max-content;

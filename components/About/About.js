@@ -16,13 +16,15 @@ const About = () => {
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
-        <Image
-          src='/images/about-video.png'
-          alt='Video'
-          width={1140}
-          height={557}
-          style={{ borderRadius: '2.4rem' }}
-        />
+        <div className={styles.content}>
+          <Image
+            src='/images/about-video.png'
+            alt='Video'
+            width={1140}
+            height={557}
+            style={{ borderRadius: '2.4rem' }}
+          />
+        </div>
       </div>
     </section>
   );
