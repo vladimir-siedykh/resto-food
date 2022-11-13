@@ -15,7 +15,7 @@ const NewsMain = () => {
             <div className={styles.item}>
               <div className={styles.img}>
                 <Image
-                  style={{ borderRadius: '1.2rem' }}
+                  style={{ borderRadius: '0.6rem' }}
                   src='/images/news-1.png'
                   alt='news picture'
                   width={332}
@@ -40,7 +40,7 @@ const NewsMain = () => {
             <div className={styles.item}>
               <div className={styles.img}>
                 <Image
-                  style={{ borderRadius: '1.2rem' }}
+                  style={{ borderRadius: '0.6rem' }}
                   src='/images/news-2.png'
                   alt='news picture'
                   width={332}
@@ -65,7 +65,7 @@ const NewsMain = () => {
             <div className={styles.item}>
               <div className={styles.img}>
                 <Image
-                  style={{ borderRadius: '1.2rem' }}
+                  style={{ borderRadius: '0.6rem' }}
                   src='/images/news-3.png'
                   alt='news picture'
                   width={332}

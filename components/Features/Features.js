@@ -15,7 +15,7 @@ const Features = () => {
                 width={48}
                 height={48}
               />
-              <h5 className='heading-2'>Always Fresh Ingredient</h5>
+              <h5 className='heading-2'>Fresh Ingredient</h5>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint.

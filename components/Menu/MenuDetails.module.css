@@ -1,5 +1,23 @@
 .content {
-  display: flex;
-  gap: 3.2rem;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.4rem;
+}
+
+.img {
+  max-width: 558px;
+}
+
+.description {
+  max-width: 56rem;
+}
+
+.text {
+  margin-top: 2.4rem;
+}
+
+@media(max-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
 }

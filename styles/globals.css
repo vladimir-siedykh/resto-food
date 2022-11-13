@@ -1,3 +1,5 @@
+
+
 :root {
   --clr-white: #FFFFFF;
   --clr-black: #222222;
@@ -144,7 +146,7 @@ meter {
 .btn {
   background-color: var(--clr-yellow);
   color: var(--clr-black);
-  padding: 1.6rem 3.2rem;
+  padding: 1.4rem 3.2rem;
   border-radius: 0.8rem;
   display: inline-block;
   width: max-content;
@@ -152,21 +154,23 @@ meter {
 
 @media(max-width: 1200px) {
   .section {
-    padding-inline: 10rem;
-    padding-top: 8rem;
+    /* padding-inline: 10rem;
+    padding-top: 8rem; */
+    padding-inline: 6rem;
+    padding-block: 6rem;
   }
 }
 
 @media(max-width: 1024px) {
   .section {
     padding-inline: 6rem;
-    padding-top: 6rem;
+    padding-block: 6rem;
   }
 }
 
 @media(max-width: 768px) {
   .section {
     padding-inline: 2.4rem;
-    padding-top: 5rem;
+    padding-block: 5rem;
   }
 }

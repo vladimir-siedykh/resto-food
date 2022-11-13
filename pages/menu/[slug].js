@@ -2,6 +2,8 @@ import menu from '../../constants/menu';
 import TitlePage from '../../components/TitlePage/TitlePage';
 import MenuDetails from '../../components/Menu/MenuDetails';
 import Head from 'next/head';
+import Subscribtion from '../../components/Subscribtion/Subscribtion';
+import Reviews from '../../components/Reviews/Reviews';
 
 export const getStaticProps = async ({ params }) => {
   const menuList = menu.filter((x) => x.slug.toString() === params.slug);
@@ -31,6 +33,8 @@ const MenuDetailPage = ({ menuDetail }) => {
         text='Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint'
       />
       <MenuDetails menuDetail={menuDetail} />
+      <Reviews />
+      <Subscribtion />
     </>
   );
 };

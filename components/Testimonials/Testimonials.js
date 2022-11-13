@@ -13,8 +13,9 @@ const Testimonials = () => {
             <div className={styles.item}>
               <h6 className='heading-2'>It’s really cool!</h6>
               <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
+                &quot;Amet minim mollit non deserunt ullamco est sit aliqua
+                dolor do amet sint. Velit officia consequat duis enim velit
+                mollit.&quot;
               </p>
               <div className={styles.line}></div>
               <Image
@@ -28,8 +29,9 @@ const Testimonials = () => {
             <div className={styles.item}>
               <h6 className='heading-2'>It’s really cool!</h6>
               <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
+                &quot;Amet minim mollit non deserunt ullamco est sit aliqua
+                dolor do amet sint. Velit officia consequat duis enim velit
+                mollit.&quot;
               </p>
               <div className={styles.line}></div>
               <Image
@@ -43,8 +45,9 @@ const Testimonials = () => {
             <div className={styles.item}>
               <h6 className='heading-2'>It’s really cool!</h6>
               <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
+                &quot;Amet minim mollit non deserunt ullamco est sit aliqua
+                dolor do amet sint. Velit officia consequat duis enim velit
+                mollit.&quot;
               </p>
               <div className={styles.line}></div>
               <Image
