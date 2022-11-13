@@ -23,7 +23,7 @@ const Offers = () => {
           <div className={styles.img}>
             <Image
               src='/images/offer.png'
-              alt='offer picture'
+              alt='offer'
               width={400}
               height={400}
             />
