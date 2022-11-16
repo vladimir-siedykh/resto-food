@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 42.3rem 1fr;
-  gap: 7.6rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
 }
 
 .content {

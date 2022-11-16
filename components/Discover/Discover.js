@@ -10,14 +10,9 @@ import { useEffect } from 'react';
 const Discover = () => {
   const ref = useRef(null);
   const inView = useInView(ref, {
-    threshold: 0.5,
-    once: true,
+    // threshold: 1,
+    // once: false,
   });
-
-  // react-intersection-observer
-  // const { ref, inView } = useInView({
-  //   // threshold: 0.1,
-  // });
 
   const animation = useAnimation();
 
@@ -38,7 +33,7 @@ const Discover = () => {
     if (!inView) {
       animation.start({
         opacity: 0,
-        x: '-100vw',
+        x: '-50vw',
       });
     }
   }, [animation, inView]);
