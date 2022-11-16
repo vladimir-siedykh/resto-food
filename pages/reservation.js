@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import ContactInfo from '../components/ContactInfo/ContactInfo';
-import FormMessage from '../components/FormMessage/FormMessage';
-import Map from '../components/Map/Map';
+import FormReservation from '../components/FormReservation/FormReservation';
 import Subscribtion from '../components/Subscribtion/Subscribtion';
 import TitlePage from '../components/TitlePage/TitlePage';
 
@@ -12,12 +11,11 @@ const ContactPage = () => {
         <title>Restofood - Contact Us</title>
       </Head>
       <TitlePage
-        title='Contact Us'
+        title='Reservation'
         text='Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint'
       />
-      <Map />
+      <FormReservation />
       <ContactInfo />
-      <FormMessage />
       <Subscribtion />
     </>
   );

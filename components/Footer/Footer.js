@@ -22,25 +22,25 @@ const Footer = () => {
             </div>
             <nav className={styles.nav}>
               <h3 className='heading-2'>Quicklink</h3>
-              <ul className={styles.links}>
+              <ul className={styles.list}>
                 <li>
-                  <Link href='/services'>
-                    <a className=''>Services</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/projects'>
-                    <a className=''>Projects</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/blog'>
-                    <a className=''>Blog</a>
+                  <Link href='/'>
+                    <a className=''>Home</a>
                   </Link>
                 </li>
                 <li>
                   <Link href='/about'>
                     <a className=''>About</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/menu'>
+                    <a className=''>Menu</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/news'>
+                    <a className=''>News</a>
                   </Link>
                 </li>
               </ul>

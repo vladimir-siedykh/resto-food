@@ -28,6 +28,7 @@
     gap: unset;
     grid-template-columns: 1fr;
     align-items: center;
+    /* padding: 4rem; */
   }
 
   .img {
@@ -40,6 +41,8 @@
   }
 }
 
-@media(max-width: 630px) {
-  
+@media(max-width: 550px) {
+  .wrapper {
+    padding: 4rem;
+  }
 }

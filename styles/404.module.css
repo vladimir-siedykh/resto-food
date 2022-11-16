@@ -1,10 +1,22 @@
-.bg {
+/* .bg {
   padding-top: 15rem;
   background-color: var(--clr-black);
+  background-image: url('/images/bgimage.png');
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+} */
+
+.bg {
+  background-color: var(--clr-black);
+  background-image: url('/images/bgimage.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 19.6rem;
+  padding-bottom: 15rem;
+  text-align: center;
 }
 
 .wrapper {
@@ -16,8 +28,17 @@
 
 .buttons {
   display: flex;
-  gap: 3.2rem;
+  gap: 5rem;
   font-size: 1.8rem;
   color: black;
   font-weight: 600;
+}
+
+.btn {
+  display: block;
+  border: 1px solid var(--clr-white);
+  padding: 1.4rem 3rem;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  color: var(--clr-white);
 }

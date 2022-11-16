@@ -46,7 +46,7 @@
   flex: 1;
 }
 
-.contacts, .about, .links, .nav {
+.contacts, .about, .list, .nav {
   display: flex;
   flex-direction: column;
   gap: 2rem;

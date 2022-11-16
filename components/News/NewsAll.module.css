@@ -1,0 +1,19 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(20rem, max-content));
+  gap: 3.4rem;
+  margin-top: 6.4rem;
+}
+
+@media(max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: repeat(2, minmax(20rem, max-content));
+    justify-content: center;
+  }
+}
+
+@media(max-width: 768px) {
+  .wrapper {
+    grid-template-columns: minmax(20rem, max-content);
+  }
+}
