@@ -1,6 +1,9 @@
+import { useRef } from 'react';
 import styles from './FormReservation.module.css';
 
 const FormReservation = () => {
+
+  const ref = useRef()
   return (
     <section className='section'>
       <div className='container center'>
@@ -37,8 +40,22 @@ const FormReservation = () => {
                 <option value='5'>5</option>
                 <option value='6'>6</option>
               </select>
-              <input className={styles.input} type="date" name="date" placeholder='Select date'/>
-              <input className={styles.input} type="datetime" name="datetime" id="" placeholder='Select time'/>
+              <input
+                ref={ref}
+                className={styles.input}
+                type='text'
+                name='date'
+                onFocus={(e) => (e.target.type = 'date')}
+                onBlur={(e) => (e.target.type = 'text')}
+                placeholder='Select date'
+              />
+              <input
+                className={styles.input}
+                type='datetime'
+                name='datetime'
+                id=''
+                placeholder='Select time'
+              />
             </div>
             <textarea
               className={styles.textarea}
