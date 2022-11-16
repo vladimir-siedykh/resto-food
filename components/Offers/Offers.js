@@ -16,7 +16,7 @@ const Offers = () => {
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt n
             </p>
-            <Link href='/'>
+            <Link href='/reservation'>
               <a className='btn'>Reservation</a>
             </Link>
           </div>

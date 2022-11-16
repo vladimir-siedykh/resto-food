@@ -20,6 +20,16 @@ const Footer = () => {
                 <FaWhatsapp />
               </div>
             </div>
+            <div className={styles.about}>
+              <h3 className='heading-2'>About Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Expedita repudiandae neque illum{' '}
+                <Link href='/about'>
+                  <a style={{ color: 'blue' }}>read more</a>
+                </Link>
+              </p>
+            </div>
             <nav className={styles.nav}>
               <h3 className='heading-2'>Quicklink</h3>
               <ul className={styles.list}>
@@ -49,17 +59,7 @@ const Footer = () => {
               <h3 className='heading-2'>Contact</h3>
               <a href='tel:+19098997865'>+19098997865</a>
               <a href='mailto:info@restofood.com'>info@restofood.com</a>
-              <address>4517 Washington Ave. Manchester, Kentucky 39495</address>
-            </div>
-            <div className={styles.about}>
-              <h3 className='heading-2'>About Us</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Expedita repudiandae neque illum
-                <Link href='/about'>
-                  <a style={{ color: 'black' }}>READ MORE LINK</a>
-                </Link>
-              </p>
+              <address>4517 Washington Ave. Manchester, <br/> Kentucky 39495</address>
             </div>
           </div>
           <div className={styles.line}></div>

@@ -50,42 +50,44 @@ const NavMobile = ({ setOpen }) => {
       >
         <motion.li variants={item}>
           <Link href='/'>
-            <a className='' onClick={handle}>
+            <a onClick={handle}>
               Home
             </a>
           </Link>
         </motion.li>
         <motion.li variants={item}>
           <Link href='/about'>
-            <a className='' onClick={handle}>
+            <a onClick={handle}>
               About
             </a>
           </Link>
         </motion.li>
         <motion.li variants={item}>
           <Link href='/menu'>
-            <a className='' onClick={handle}>
+            <a onClick={handle}>
               Menu
             </a>
           </Link>
         </motion.li>
         <motion.li variants={item}>
           <Link href='/news'>
-            <a className='' onClick={handle}>
+            <a onClick={handle}>
               News
             </a>
           </Link>
         </motion.li>
         <motion.li variants={item}>
           <Link href='/contact'>
-            <a className='' onClick={handle}>
+            <a onClick={handle}>
               Contact
             </a>
           </Link>
         </motion.li>
         <motion.li variants={item}>
           <Link href='/reservation'>
-            <a className={styles.btn}>Book a Table</a>
+            <a className={styles.btn} onClick={handle}>
+              Book a Table
+            </a>
           </Link>
         </motion.li>
       </motion.ul>
