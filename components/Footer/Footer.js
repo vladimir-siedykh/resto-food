@@ -59,14 +59,16 @@ const Footer = () => {
               <h3 className='heading-2'>Contact</h3>
               <a href='tel:+19098997865'>+19098997865</a>
               <a href='mailto:info@restofood.com'>info@restofood.com</a>
-              <address>4517 Washington Ave. Manchester, <br/> Kentucky 39495</address>
+              <address>
+                4517 Washington Ave. Manchester, <br /> Kentucky 39495
+              </address>
             </div>
           </div>
           <div className={styles.line}></div>
         </div>
       </section>
       <div className={styles.bg}>
-        Copyright Restofood. 2022 All Right Reserved
+        Copyright Restofood. {new Date().getFullYear()} All Right Reserved
       </div>
     </footer>
   );

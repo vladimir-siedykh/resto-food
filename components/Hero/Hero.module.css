@@ -4,14 +4,14 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-}
-
-.hero {
-  
+  height: 100vh;
+  height: 100svh;
 }
 
 .container {
-  
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 .content {
@@ -19,15 +19,25 @@
   flex-direction: column;
   justify-content: center;
   max-width: 50rem;
-  margin-top: 15rem;
-  margin-bottom: 10rem;
 }
 
 .title {
-  font-size: 7.2rem;
   line-height: 1.2;
   margin-bottom: 2.8rem;
   font-family: 'Playfair Display', serif;
+  justify-self: center;
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: calc(6rem + 1vw - 2rem);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .title {
+    font-size: calc(7rem + 2vw - 2rem);
+  }
 }
 
 .text {
