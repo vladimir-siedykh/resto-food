@@ -58,6 +58,13 @@
   padding-block: 1.6rem;
 }
 
+.bg a {
+  color: var(--clr-black);
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
 @media(max-width: 1024px) {
   .content {
     flex-direction: column;

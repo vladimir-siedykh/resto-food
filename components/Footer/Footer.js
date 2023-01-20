@@ -1,4 +1,4 @@
-import styles from './Footer.module.css'
+import styles from './Footer.module.css';
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import Link from 'next/link';
 
@@ -68,10 +68,20 @@ const Footer = () => {
         </div>
       </section>
       <div className={styles.bg}>
-        Copyright Restofood. {new Date().getFullYear()} All Right Reserved
+        <div>Restofood. {new Date().getFullYear()} All Right Reserved</div>
+        <div>
+          Developed by{' '}
+          <Link
+            className={styles.link}
+            href='https://siedykh.com'
+            target='_blank'
+          >
+            VSD&D
+          </Link>
+        </div>
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;
