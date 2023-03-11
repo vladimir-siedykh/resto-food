@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://www.restofood.store
+
+# Sitemaps
+Sitemap: http://www.restofood.store/sitemap.xml
